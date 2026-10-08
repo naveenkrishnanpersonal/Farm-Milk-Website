@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://naveenkrishnanpersonal.github.io/Farm-Milk-Website/">
-    <img src="./public/preview.jpg" alt="Aman Farm Milk Website Preview">
+    <img src="./public/previewmilk.png" alt="Aman Farm Milk Website Preview">
   </a>
 </p>
 
