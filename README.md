@@ -1,6 +1,12 @@
 # 🥛 Aman Farm Milk
 
-> Fresh cow milk, Bilona ghee and curd — collected at dawn and delivered from the farm to your doorstep in and around Pathalam, Eloor, Kalamassery and Vattekunnam.
+> Fresh cow milk, Bilona ghee and curd — collected at dawn and delivered from the farm to your doorstep.
+
+<p align="center">
+  <a href="https://naveenkrishnanpersonal.github.io/Farm-Milk-Website/">
+    <img src="./public/preview.jpg" alt="Aman Farm Milk Website Preview">
+  </a>
+</p>
 
 <p align="center">
   <a href="https://naveenkrishnanpersonal.github.io/Farm-Milk-Website/">
@@ -8,9 +14,7 @@
   </a>
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/lint-oxlint-3E67B1?style=for-the-badge" alt="Oxlint">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
-  <img src="https://img.shields.io/badge/Deployed-GitHub_Pages-222222?style=for-the-badge&logo=github" alt="GitHub Pages">
 </p>
 
 ## 📌 About the Project
