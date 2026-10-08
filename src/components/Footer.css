@@ -1,0 +1,374 @@
+/* Aman Farm Milk — footer */
+
+.site-footer {
+  width: 100%;
+  padding: 60px 24px 28px;
+  background: #286966;
+  color: #ffffff;
+  border-top: none;
+}
+
+.footer-top {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto 32px;
+  display: grid;
+  grid-template-columns: minmax(240px, 1.35fr) repeat(2, minmax(170px, 1fr));
+  gap: 32px;
+}
+
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-brand-logo {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: brightness(1.1) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+.footer-brand-name {
+  font-family: var(--display-font);
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-transform: lowercase;
+}
+
+.footer-brand-tag {
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.88rem;
+}
+
+.footer-text {
+  margin: 0;
+  line-height: 1.8;
+  color: #E7F3F1;
+  font-size: 0.95rem;
+  max-width: 520px;
+  font-weight: 500;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: none;
+  transition: transform 200ms ease, background 200ms ease;
+}
+
+.footer-social-link:hover {
+  transform: translateY(-3px) scale(1.06);
+}
+
+.footer-social-facebook {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-social-facebook:hover {
+  background: #1877f2;
+}
+
+.footer-social-instagram {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-social-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.footer-social-whatsapp {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-social-whatsapp:hover {
+  background: #25d366;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-download h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.footer-links li {
+  color: #E7F3F1;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.footer-links a {
+  color: #E7F3F1;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #70B2AE;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-contact-item svg {
+  margin-top: 4px;
+  color: #70B2AE;
+  font-size: 1rem;
+}
+
+.footer-contact-item p {
+  margin: 0;
+  color: #E7F3F1;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.footer-download p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.footer-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 200px;
+  min-height: 58px;
+  margin-top: 12px;
+  padding: 8px 14px 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-sm, 8px);
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-decoration: none;
+  transition: filter 180ms ease;
+}
+
+.footer-badge:hover {
+  filter: brightness(1.08);
+}
+
+.footer-badge:focus-visible {
+  outline: 3px solid rgba(112, 178, 174, 0.8);
+  outline-offset: 3px;
+}
+
+.google-play-mark {
+  width: 39px;
+  height: 44px;
+  flex: 0 0 auto;
+}
+
+.badge-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  font-family:
+    "Google Sans", "Product Sans", Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.footer-badge span {
+  display: block;
+  opacity: 1;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.footer-badge strong {
+  display: block;
+  margin-top: 3px;
+  color: #fff;
+  font-size: 1.42rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.footer-bottom {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.92rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.footer-bottom span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.92rem;
+  margin: 0 8px;
+  font-weight: 500;
+}
+
+.footer-bottom .footer-credit-link {
+  margin: 0;
+  color: #70B2AE;
+  font-weight: 700;
+}
+
+.footer-bottom .footer-credit-link:hover,
+.footer-bottom .footer-credit-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #8FCAC7;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom-links a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-bottom-links a:hover {
+  color: #70B2AE;
+}
+
+.footer-bottom-links span {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 980px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-top {
+    gap: 22px;
+  }
+
+  .footer-bottom {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+  }
+}
+
+/* --- Footer Mobile Touch Targets --- */
+@media (max-width: 768px) {
+  .footer-links li {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-links li a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-bottom a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .footer-brand-logo {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 28px 16px 18px;
+  }
+
+  .footer-top {
+    gap: 18px;
+  }
+
+  .footer-brand {
+    justify-content: center;
+  }
+
+  .footer-brand-logo {
+    width: 120px;
+  }
+
+  .footer-links ul,
+  .footer-contact,
+  .footer-download {
+    gap: 10px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    padding-top: 18px;
+  }
+}
